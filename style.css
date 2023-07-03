@@ -48,3 +48,13 @@ body {
 body{
     min: height 100vh;
 }
+
+
+@media (min-width: 1024px)
+.lg\:w-1\/6 {
+    width: 8.666667%;
+}
+@media (min-width: 768px)
+.md\:w-3\/6 {
+    width: 18%;
+}
