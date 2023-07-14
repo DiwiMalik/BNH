@@ -1,4 +1,4 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -18,37 +18,34 @@
                 padding-bottom: 0rem;
             }
         }
-        .contactinfo {
-            display:flex;
-            justify-content: space-between;
-        }
-    </style>
-    <style>
-        body {
-            font-family: "Roboto", sans-serif;
+
+        @media (max-width: 639px) {
+            .w-40 {
+                width: 20%;
+            }
         }
     </style>
     <style>
         @media (min-width: 640px) {
             .md\:w-4\/6 {
-                width: 66.666667%;
+                width: 34.666667%;
             }
 
             .md\:w-5\/6 {
-                width: 83.333333%;
+                width: 30.333333%;
             }
 
             @media (min-width: 2068px) {
                 .lg\:w-2\/5 {
-                    width: 40%;
+                    width: 20%;
                 }
 
                 .lg\:w-3\/3 {
-                    width: 100%;
+                    width: 1%;
                 }
 
                 .md\:w-4\/6 {
-                    width: 66.666667%;
+                    width: 6.666667%;
                 }
             }
         }
@@ -59,6 +56,7 @@
         }
     </style>
 </head>
+
 
 <body>
     <section class="text-black-600 body-font">
@@ -91,17 +89,6 @@
             <div class="flex md:flex-row flex-col md:gap-8">
                 <p class="mb-4 flex md:items-start items-center justify-center">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"  class="mr-3 h-5 w-5 sm:block hidden icons">
-                        <path d="M11.47 3.84a.75.75 0 011.06 0l8.69 8.69a.75.75 0 101.06-1.06l-8.689-8.69a2.25 2.25 0 00-3.182 0l-8.69 8.69a.75.75 0 001.061 1.06l8.69-8.69z" />
-                        <path d="M12 5.432l8.159 8.159c.03.03.06.058.091.086v6.198c0 1.035-.84 1.875-1.875 1.875H15a.75.75 0 01-.75-.75v-4.5a.75.75 0 00-.75-.75h-3a.75.75 0 00-.75.75V21a.75.75 0 01-.75.75H5.625a1.875 1.875 0 01-1.875-1.875v-6.198a2.29 2.29 0 00.091-.086L12 5.43z" />
-                    </svg>
-                    <a href="https://www.google.com/maps/place/Sushma+Infinium/@30.6388207,76.8210589,17z/data=!3m1!4b1!4m6!3m5!1s0x390feb2b486ba04d:0x2555b85046f24e48!8m2!3d30.6388207!4d76.8236338!16s%2Fg%2F11c6dghxwk?entry=ttu">
-                        Office No 34, 12-A (13th) Floor,<br>
-                        Sushma Infinium, Chandigarh- <br>Amabala Highway,
-                        Zirakpur,<br> SAS Mohali, Punjab. India
-                    </a>
-                </p>
-                <p class="mb-4 flex md:items-start items-center justify-center">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"  class="mr-3 h-5 w-5 sm:block hidden icons">
                         <path d="M1.5 8.67v8.58a3 3 0 003 3h15a3 3 0 003-3V8.67l-8.928 5.493a3 3 0 01-3.144 0L1.5 8.67z" />
                         <path d="M22.5 6.908V6.75a3 3 0 00-3-3h-15a3 3 0 00-3 3v.158l9.714 5.978a1.5 1.5 0 001.572 0L22.5 6.908z" />
                     </svg>
@@ -114,6 +101,19 @@
                     <a href="tel:+91 9914224828">+91 99142 24828</a>
                     &nbsp;|&nbsp;
                     <a href="tel:+91 9814224828">+91 98142 24828</a>
+                </p>
+            </div>
+            <div class="flex md:flex-row flex-col md:gap-8">
+                <p class="mb-4 flex md:items-start items-center justify-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"  class="mr-3 h-5 w-5 sm:block hidden icons">
+                        <path d="M11.47 3.84a.75.75 0 011.06 0l8.69 8.69a.75.75 0 101.06-1.06l-8.689-8.69a2.25 2.25 0 00-3.182 0l-8.69 8.69a.75.75 0 001.061 1.06l8.69-8.69z" />
+                        <path d="M12 5.432l8.159 8.159c.03.03.06.058.091.086v6.198c0 1.035-.84 1.875-1.875 1.875H15a.75.75 0 01-.75-.75v-4.5a.75.75 0 00-.75-.75h-3a.75.75 0 00-.75.75V21a.75.75 0 01-.75.75H5.625a1.875 1.875 0 01-1.875-1.875v-6.198a2.29 2.29 0 00.091-.086L12 5.43z" />
+                    </svg>
+                    <a href="https://www.google.com/maps/place/Sushma+Infinium/@30.6388207,76.8210589,17z/data=!3m1!4b1!4m6!3m5!1s0x390feb2b486ba04d:0x2555b85046f24e48!8m2!3d30.6388207!4d76.8236338!16s%2Fg%2F11c6dghxwk?entry=ttu">
+                        Office No 34, 12-A (13th) Floor,
+                        Sushma Infinium, Chandigarh-Amabala Highway,
+                        Zirakpur, SAS Mohali, Punjab. India
+                    </a>
                 </p>
             </div>
         </div>
